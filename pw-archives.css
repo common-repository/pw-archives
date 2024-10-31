@@ -1,0 +1,10 @@
+.PW_Archives.css *::-moz-selection {
+	background-color:transparent;
+}
+.PW_Archives.css li.expandable {
+	cursor:pointer;
+	list-style-image: url('images/down-arrow.png')!important;
+}
+.PW_Archives.css li.expandable.hide {
+	list-style-image: url('images/right-arrow.png')!important;
+}
